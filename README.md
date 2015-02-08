@@ -1,7 +1,15 @@
-Embedly Bundle [![Build Status](https://travis-ci.org/EmanueleMinotto/EmbedlyBundle.svg)](https://travis-ci.org/EmanueleMinotto/EmbedlyBundle)
-============
+Embedly Bundle
+==============
+
+[![Build Status](https://img.shields.io/travis/EmanueleMinotto/EmbedlyBundle.svg?style=flat)](https://travis-ci.org/EmanueleMinotto/EmbedlyBundle)
+[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/adccb1cb-2295-41c3-b3d9-c4d6073df6ef.svg?style=flat)](https://insight.sensiolabs.com/projects/adccb1cb-2295-41c3-b3d9-c4d6073df6ef)
+[![Coverage Status](https://img.shields.io/coveralls/EmanueleMinotto/EmbedlyBundle.svg?style=flat)](https://coveralls.io/r/EmanueleMinotto/EmbedlyBundle)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/EmanueleMinotto/EmbedlyBundle.svg?style=flat)](https://scrutinizer-ci.com/g/EmanueleMinotto/EmbedlyBundle/)
+[![Total Downloads](https://img.shields.io/packagist/dt/emanueleminotto/embedly-bundle.svg?style=flat)](https://packagist.org/packages/emanueleminotto/embedly-bundle)
 
 Bundle for Symfony 2 providing the [embed.ly](http://embed.ly) library.
+
+API: [emanueleminotto.github.io/EmbedlyBundle](http://emanueleminotto.github.io/EmbedlyBundle/)
 
 Step 1: Download the Bundle
 ---------------------------
