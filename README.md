@@ -43,7 +43,7 @@ class AppKernel extends Kernel
             // ...
 
             new EmanueleMinotto\EmbedlyBundle\EmbedlyBundle(),
-        }
+        );
     }
 }
 ```
