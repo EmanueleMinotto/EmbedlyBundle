@@ -1,15 +1,5 @@
 {
-    "authors": [
-        {
-            "email": "minottoemanuele@gmail.com",
-            "name": "Emanuele Minotto"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "EmanueleMinotto\\EmbedlyBundle\\": "."
-        }
-    },
+    "name": "emanueleminotto/embedly-bundle",
     "description": "Symfony 2 Bundle for the embed.ly library",
     "keywords": [
         "bundle",
@@ -20,7 +10,13 @@
         "twig"
     ],
     "license": "MIT",
-    "name": "emanueleminotto/embedly-bundle",
+    "authors": [
+        {
+            "name": "Emanuele Minotto",
+            "email": "minottoemanuele@gmail.com",
+            "homepage": "http://www.emanueleminotto.it"
+        }
+    ],
     "require": {
         "emanueleminotto/embedly": "~1.1"
     },
@@ -28,5 +24,10 @@
         "phpunit/phpunit": "~4.5",
         "symfony/framework-bundle": "~2.6",
         "symfony/twig-bundle": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "EmanueleMinotto\\EmbedlyBundle\\": "."
+        }
     }
 }
