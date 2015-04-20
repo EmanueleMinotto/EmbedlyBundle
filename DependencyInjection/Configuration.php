@@ -25,7 +25,7 @@ class Configuration implements ConfigurationInterface
         $rootNode
             ->children()
                 ->scalarNode('api_key')
-                    ->defaultValue('%embedly.api_key%')
+                    ->defaultNull()
                 ->end()
             ->end();
 
