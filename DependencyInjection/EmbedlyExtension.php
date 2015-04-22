@@ -39,7 +39,7 @@ class EmbedlyExtension extends Extension
 
         $container->setParameter('embedly.api_key', $config['api_key']);
 
-        if (null !== $config['guzzle_service'] && $container->hasDefinition($config['guzzle_service'])) {
+        if (null !== $config['guzzle_service']) {
             $definition = $container->getDefinition('embedly');
             $definition->addArgument(new Reference($config['guzzle_service']));
         }
