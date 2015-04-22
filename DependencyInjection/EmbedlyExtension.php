@@ -5,6 +5,7 @@ namespace EmanueleMinotto\EmbedlyBundle\DependencyInjection;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader;
+use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
@@ -37,5 +38,10 @@ class EmbedlyExtension extends Extension
         $loader->load('services.xml');
 
         $container->setParameter('embedly.api_key', $config['api_key']);
+
+        if (null !== $config['guzzle_service'] && $container->hasDefinition($config['guzzle_service'])) {
+            $definition = $container->getDefinition('embedly');
+            $definition->addArgument(new Reference($config['guzzle_service']));
+        }
     }
 }

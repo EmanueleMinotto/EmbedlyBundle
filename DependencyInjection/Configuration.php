@@ -27,6 +27,9 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('api_key')
                     ->defaultNull()
                 ->end()
+                ->scalarNode('guzzle_service')
+                    ->defaultNull()
+                ->end()
             ->end();
 
         return $treeBuilder;
